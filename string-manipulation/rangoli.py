@@ -5,6 +5,23 @@ def print_rangoli(size):
         c-b-a-b-c
         --c-b-c--
         ----c----
+
+        #size 8
+        --------------h--------------
+        ------------h-g-h------------
+        ----------h-g-f-g-h----------
+        --------h-g-f-e-f-g-h--------
+        ------h-g-f-e-d-e-f-g-h------
+        ----h-g-f-e-d-c-d-e-f-g-h----
+        --h-g-f-e-d-c-b-c-d-e-f-g-h--
+        h-g-f-e-d-c-b-a-b-c-d-e-f-g-h
+        --h-g-f-e-d-c-b-c-d-e-f-g-h--
+        ----h-g-f-e-d-c-d-e-f-g-h----
+        ------h-g-f-e-d-e-f-g-h------
+        --------h-g-f-e-f-g-h--------
+        ----------h-g-f-g-h----------
+        ------------h-g-h------------
+        --------------h--------------
     """
     # your code goes here
     alphabet = list(map(chr, range(97,123)))
