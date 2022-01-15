@@ -16,10 +16,13 @@ from itertools import permutations
 #i = input().split()
 i = "HACK 2".split()
 l = list(permutations(i[0], int(i[1])))
-l = list(permutations(i[0], int(i[1])))
 ls = []
 for item in l:
-    ls.append(item[0] + item[1])
+    s =''
+    for letter in item:
+        s += letter
+    if s not in ls:
+        ls.append(s)
 
 ls.sort()
 print(*ls, sep='\n')
