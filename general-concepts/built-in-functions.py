@@ -19,4 +19,10 @@ print(divmod(177, 10))
 print(pow(17,10)) 
 print(pow(17,10,3)) # returns remainder when divided by modulo
 
+####### all()
+# The all() function returns True if all items in an iterable 
+# are true, otherwise it returns False.
+print(all([True, False, True]))
+print(all([True, True, True]))
+
 
