@@ -27,9 +27,11 @@ print(all([True, True, True]))
 
 ####### eval()
 # the eval() built in function will look at a string and replace variables in the 
-# formula that instatiated as local variables
+# formula that instatiated as local objects
+# also works for method objects and function objects
 x = 5
 y = 5
 print(eval("x+y+1"))
+eval("print('HELLO EVAL()!')")
 
 
