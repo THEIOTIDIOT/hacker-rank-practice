@@ -25,4 +25,11 @@ print(pow(17,10,3)) # returns remainder when divided by modulo
 print(all([True, False, True]))
 print(all([True, True, True]))
 
+####### eval()
+# the eval() built in function will look at a string and replace variables in the 
+# formula that instatiated as local variables
+x = 5
+y = 5
+print(eval("x+y+1"))
+
 
