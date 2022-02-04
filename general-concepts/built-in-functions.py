@@ -34,4 +34,17 @@ y = 5
 print(eval("x+y+1"))
 eval("print('HELLO EVAL()!')")
 
+######## reversed()
+# great for reversing an iterable
+# returns an iterator object
+ 
+# returns reversed iterator object
+print(str(reversed(str(9))))
+
+# returns reversed items
+print(*reversed(str(90001)))
+
+# returns reversed string
+print(''.join(reversed(str(90001))))
+
 
