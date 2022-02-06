@@ -5,7 +5,7 @@ from html.parser import HTMLParser as hp
 class MyHtmlParser(hp):
     def handle_starttag(self, tag, attrs):
         print('Start : ' + tag)
-        if len(attrs) > 0:
+        if attrs:
             print(*['-> {} > {}'.format(attrs[y][0], attrs[y][1]) for y in range(len(attrs))], sep='\n')
             
     def handle_endtag(self, tag):
@@ -13,7 +13,7 @@ class MyHtmlParser(hp):
         
     def handle_startendtag(self, tag, attrs):
         print('Empty : ' + tag)
-        if len(attrs) > 0:
+        if attrs:
             print(*['-> {} > {}'.format(attrs[y][0], attrs[y][1]) for y in range(len(attrs))],sep='\n')
     
     def handle_comment(self, data):
