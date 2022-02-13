@@ -5,5 +5,8 @@ with open('/Users/benjaminzimmer/Documents/GitHub/hacker-rank-practice/numpy/con
 
     a = [numpy.array(f.readline().replace('\n', '').split(), int) for _ in range(n)]
     b = [numpy.array(f.readline().replace('\n', '').split(), int) for _ in range(m)]
+    
+    print(a)
+    print(b)
 
     print(numpy.concatenate((a, b), axis=0))
