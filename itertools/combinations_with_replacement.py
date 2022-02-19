@@ -4,7 +4,7 @@ s = 'HACK 2'.split()
 it = list(s[0])
 it.sort()
 
-cwr = list(combinations_with_replacement(''.join(it), int((s[1]))))
+cwr = list(combinations_with_replacement(''.join(it), int(s[1])))
 
 for row in cwr:
     s = ''

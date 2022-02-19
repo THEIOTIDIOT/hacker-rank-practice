@@ -2,7 +2,7 @@
 #Task
 
 #You are given a string .
-#Your task is to print all possible permutations of size  of the string in lexicographic sorted order.
+#Your task is to print all possible permutations of size of the string in lexicographic sorted order.
 
 #Input Format
 
