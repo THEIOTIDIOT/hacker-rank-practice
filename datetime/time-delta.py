@@ -17,15 +17,7 @@ or if it returns a value which isn’t a time tuple. For a complete list of form
 directives, see strftime() and strptime() Behavior.
 '''
 
-#!/bin/python3
-
-import math
-import os
-import random
-import re
-import sys
-
-from datetime import timedelta, timezone, date, datetime
+from datetime import timezone, datetime
 
 # Complete the time_delta function below.
 def time_delta(t1, t2):
