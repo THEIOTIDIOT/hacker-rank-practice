@@ -1,8 +1,5 @@
 # Enter your code here. Read input from STDIN. Print output to STDOUT
 from collections import Counter
-
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-from collections import Counter
 # line1 - number of shoes
 # line2 - line containing each shoe id'd by size
 # line3 - number of custs

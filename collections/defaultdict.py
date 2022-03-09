@@ -5,6 +5,7 @@
 # linex - line x - word group B
 
 from collections import defaultdict
+
 ll = input().split()
 asize = int(ll[0])
 bsize = int(ll[1])

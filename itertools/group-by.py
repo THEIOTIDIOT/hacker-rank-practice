@@ -1,4 +1,4 @@
-#https://docs.python.org/2/library/itertools.html#itertools.groupby
+#https://docs.python.org/3.8/library/itertools.html#itertools.groupby
     # [k for k, g in groupby('AAAABBBCCDAABBB')] --> A B C D A B
     # [list(g) for k, g in groupby('AAAABBBCCD')] --> AAAA BBB CC D
 # Enter your code here. Read input from STDIN. Print output to STDOUT
